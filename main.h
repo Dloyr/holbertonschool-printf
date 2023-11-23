@@ -13,11 +13,11 @@ typedef struct specifier_d
 } specifier_t;
 
 int _printf(const char *format, ...);
-int (*get_fontions(char *specifier))(va_list);
-int print_char(char charac);
-int print_string(char *string);
-int print_modulo(void);
-int print_integer(int integer);
+int (*get_fonctions(char *specifier))(va_list);
+int print_char(va_list args);
+int print_string(va_list args);
+int print_modulo(va_list args);
+int print_integer(va_list args);
 int _putchar(char c);
 
 #endif

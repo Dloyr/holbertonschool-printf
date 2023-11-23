@@ -1,13 +1,14 @@
 #include "main.h"
 
-int print_char(char character)
+int print_char(va_list args)
 {
-	_putchar(character);
+	_putchar(va_arg(args, int));
 	return (1);
 }
 
-int print_string(char *string)
+int print_string(va_list args)
 {
+	char *string = va_arg(args, char *);
 	int index;
 
 	for (index = 0; string[index] != '\0'; index++)
@@ -17,13 +18,13 @@ int print_string(char *string)
 	return (index);
 }
 
-int print_modulo(void)
+int print_modulo(va_list args)
 {
 	_putchar('%');
 	return (1);
 }
 
-int print_integer(int integer)
+int print_integer(va_list args)
 {
 //	int num_string;
 //	int length;
