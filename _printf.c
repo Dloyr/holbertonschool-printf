@@ -14,29 +14,10 @@ int _printf(const char *format, ...)
 		{
 			_putchar(format[index]);
 		}
-		else if (format[index + 1] == 'c')
-		{
-			length += print_char(va_arg(args, int));
-			index++;
-		}
-		else if (format[index + 1] == 's')
-		{
-			length += print_string(va_arg(args, char *));
-			index++;
-		}
-		else if (format[index + 1] == '%')
-		{
-			length += print_modulo();
-			index++;
-		}
-		else if (format[index + 1] == 'd' || format[index + 1] == 'i')
-		{
-			length += print_integer(va_arg(args, int));
-			index++;
-		}
 		else
 		{
-			_putchar(format[index]);
+			char specifier = format[index + 1];
+			int (*print_functions)(va_list) = *get_fonctions(&specifier);
 		}
 		length++;
 		index++;

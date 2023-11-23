@@ -24,8 +24,8 @@ int print_modulo(va_list args)
 	return (1);
 }
 
-int print_integer(va_list args)
-{
+//int print_integer(va_list args)//
+
 //	int num_string;
 //	int length;
 //
@@ -34,5 +34,4 @@ int print_integer(va_list args)
 //	{
 //		_putchar(num_string[length]);
 //	}
-	return (integer);
-}
+	//return (integer);
