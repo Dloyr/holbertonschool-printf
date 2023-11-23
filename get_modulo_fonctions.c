@@ -4,11 +4,11 @@
 int (*get_fonctions(char *letter))(va_list)
 {
 	specifier_t fonction_pointeur[] = {
-		{"c", print_char },
+		{"c", print_char},
 		{"s", print_string},
 		{"%", print_modulo},
 		{"i", print_integer},
-		{"d", print_integer},
+		{"d", print_decimal},
 		{NULL, NULL}
 	};
 	int index = 0;
