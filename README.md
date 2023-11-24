@@ -72,7 +72,7 @@ Coder une fonction semblable à la commande printf de la librairie standard.
 	* => Unknown:[%r]
 
 ## Flowchar
-![Image](https://raw.githubusercontent.com/Dloyr/holbertonschool-printf/readme/flowchar_printf.drawio.png)
+![Image]()
 
 ## Author
 #### Dimitri Loyer
