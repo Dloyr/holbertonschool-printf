@@ -73,7 +73,7 @@ Coder une fonction semblable à la commande printf de la librairie standard.
 - `_printf("Unknown:[%r]\n");`
 	* => Unknown:[%r]
 
-## Flowchar
+## Flowchart
 ![Image](https://raw.githubusercontent.com/Dloyr/holbertonschool-printf/Readme/flowchar_printf.drawio.png)
 
 ## Author
