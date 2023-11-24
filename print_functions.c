@@ -81,7 +81,7 @@ int print_integer(va_list args)
 	int integer = (va_arg(args, int));
 	int digit = 0;
 	int reverse = 0;
-	int length =  0;
+	int length = 0;
 
 	if (integer < 0)
 	{

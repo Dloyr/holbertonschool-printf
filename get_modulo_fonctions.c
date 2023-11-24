@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdlib.h"
+
 /**
 *get_fonctions - function pointer between the character and the good function
 *@letter: pointer contain letter associate to function
