@@ -1,4 +1,4 @@
-.TH _PRINTF 3 "November 2023" "Your Name"
+.TH _PRINTF 3 "November 2023" "Billemont Alexis and Loyer Dimitri"
 
 .SH NAME
 _printf \- format and print data
@@ -33,10 +33,13 @@ Prints a percent sign.
 
 .TP
 \fB%d\fR, \fB%i\fR
-Prints a signed decimal integer.
+Prints a signed integer.
 
 .SH RETURN VALUE
 The \fB_printf\fR function returns the number of characters printed (excluding the null byte used to end output to strings).
+
+.SH BUGS
+None known.
 
 .SH EXAMPLES
 Print a character:
@@ -47,24 +50,24 @@ Print a character:
 
 .PP
 Print a string:
+.PP
 .B #include "main.h"
 .br
 .B _printf("%s", "Hello, World!"); // Output: Hello, World!
 
+
+.PP.PP
+Print a modulo:
 .PP
-Print a decimal integer:
+.B #include "main.h"
+.br
+.B _printf("My modulo: %%"); // Output: My modulo: %
+
+Print a integer:
+.PP
 .B #include "main.h"
 .br
 .B _printf("%d", 42); // Output: 42
 
 .SH SEE ALSO
 printf(3), putchar(3), puts(3)
-
-.SH BUGS
-None known.
-
-.SH AUTHOR
-Your Name
-
-.SH COPYRIGHT
-This manual page was written for educational purposes and may be freely distributed.
