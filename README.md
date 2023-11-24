@@ -33,6 +33,8 @@ Coder une fonction semblable à la commande printf de la librairie standard.
 - Les prototypes des fonctions doivent être répertoriés dans un fichier d'en tête nommé, "main.h". Ce fichier doit inclure un "guarded"
 
 ## Man page
+![Image](https://raw.githubusercontent.com/Dloyr/holbertonschool-printf/Readme/man%20printf1.png)
+![Image](https://raw.githubusercontent.com/Dloyr/holbertonschool-printf/Readme/man%20printf2.png)
 
 ## Utilisation
 
@@ -72,7 +74,7 @@ Coder une fonction semblable à la commande printf de la librairie standard.
 	* => Unknown:[%r]
 
 ## Flowchar
-![Image](https://raw.githubusercontent.com/Dloyr/holbertonschool-printf/readme/flowchar_printf.drawio.png)
+![Image](https://raw.githubusercontent.com/Dloyr/holbertonschool-printf/Readme/flowchar_printf.drawio.png)
 
 ## Author
 #### Dimitri Loyer
